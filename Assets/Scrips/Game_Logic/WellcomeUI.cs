@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -26,7 +26,7 @@ public class WellcomeUI : MonoBehaviour
         }
         if (gameManager.board.boxList[gameManager.listPlayer[gameManager.currentTurn].currentNumberDice].isOpportunity)
         {
-            //Lấy thẻ cơ hội ra
+            //Lấy te
             gameManager.opportunity = gameManager.board.opportunitiesQueue.Dequeue();
         }
         gameObject.SetActive(false);
@@ -35,13 +35,14 @@ public class WellcomeUI : MonoBehaviour
 
     private void Update()
     {
+		Debug.Log("Cin chao");
         if (gameManager.board.boxList[gameManager.listPlayer[gameManager.currentTurn].currentNumberDice].isFortune)
         {
-            wellcomeText.text = "Chúc mừng bạn đã vào ô Khí Vận";
+            wellcomeText.text = "Ch�c m?ng b?n ?� v�o � Kh� V?n";
         }
         else
         {
-            wellcomeText.text = "Chúc mừng bạn đã vào ô Cơ Hội";
+            wellcomeText.text = "Ch�c m?ng b?n ?� v�o � C? H?i";
         }
     }
 }
