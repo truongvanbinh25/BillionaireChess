@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5197959868366928565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8946361512074459348}
+  - component: {fileID: -2701039447887866498}
+  m_Layer: 0
+  m_Name: Opportunity 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8946361512074459348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5197959868366928565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18356077, y: 0.9394798, z: 19.790686}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2701039447887866498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5197959868366928565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f99d423aab2014689addbda9e7e426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptionOpportunity: "V\xE0o t\xF9. \u0110i th\u1EB3ng v\xE0o t\xF9, khi \u0111i
+    ngang \xF4 b\u1EAFt \u0111\u1EA7u kh\xF4ng \u0111\u01B0\u1EE3c l\xE3nh ti\u1EC1n"
+  bonus15Money: 0
+  bonus50Money: 0
+  bonus150Money: 0
+  comeToNguyenTriPhuong: 0
+  comeToNguyenTatThanh: 0
+  cometoTanKyTanQuy: 0
+  comeToNearestTheBusStation: 0
+  comeToNearestTheCompany: 0
+  goToStart: 0
+  goToJail: 1
+  threeStepsBackward: 0
+  threeStepsForward: 0
+  repairHouse: 0
+  wasElectedDirector: 0

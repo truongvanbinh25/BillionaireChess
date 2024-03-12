@@ -1,0 +1,16 @@
+<dependencies>
+  <compile
+      roots="D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar">
+    <dependency
+        name="D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\CNTT\tuhoc\Unity_2D\Billionaire Chess\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+  </package>
+</dependencies>
