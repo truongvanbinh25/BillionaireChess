@@ -26,7 +26,7 @@ public class WellcomeUI : MonoBehaviour
         }
         if (gameManager.board.boxList[gameManager.listPlayer[gameManager.currentTurn].currentNumberDice].isOpportunity)
         {
-            //Lấy te
+            //Lấy thẻ cơ hội ra
             gameManager.opportunity = gameManager.board.opportunitiesQueue.Dequeue();
         }
         gameObject.SetActive(false);
@@ -38,11 +38,11 @@ public class WellcomeUI : MonoBehaviour
 		Debug.Log("Cin chao");
         if (gameManager.board.boxList[gameManager.listPlayer[gameManager.currentTurn].currentNumberDice].isFortune)
         {
-            wellcomeText.text = "Ch�c m?ng b?n ?� v�o � Kh� V?n";
+            wellcomeText.text = "Chúc mừng bạn đã vào ô Khí vận";
         }
         else
         {
-            wellcomeText.text = "Ch�c m?ng b?n ?� v�o � C? H?i";
+            wellcomeText.text = "Chúc mừng bạn đã vào ô cơ hội";
         }
     }
 }
